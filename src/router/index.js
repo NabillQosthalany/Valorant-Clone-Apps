@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 const routes = [
   {
     path: "/",
-    component: () => import("../views/Home/HomePage.vue"),
+    component: () => import("../views/Home/Homepage.vue"),
   },
   {
     path: "/Agent",
